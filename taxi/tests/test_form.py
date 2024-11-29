@@ -1,6 +1,7 @@
 from django.test import TestCase
 from taxi.forms import DriverLicenseUpdateForm
 
+
 class DriverLicenseUpdateFormTest(TestCase):
     def test_valid_form(self):
         form_data = {"license_number": "ABC12345"}
